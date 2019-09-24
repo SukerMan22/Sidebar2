@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    
+}
+
+body {
+    background-color: #eee;
+   
+}
+
+.sidebar {
+    width: 25%;
+    height: 100vh;
+    background-color: #333;
+}
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.sidebar ul {
+    
+}
+
+.sidebar ul>li {
+    padding: 20px;
+    outline: 1px solid white;
+}
+
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.subindex {
+    width: 100%;
+    position: relative;
+    top: 20px;
+    display: none;
+    
+}
+
+.subindex li {
+    
+   
+}
+
+.subindex li a {
+    
+    
+}
+
+.sidebar ul li a i {
+    position: absolute;
+    left: 20%;
+}
+
+
+.main {
+    width: 100;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    background-color: white;
+}
+
+.main i {
+    font-size: 30px;
+}
+
+
+
+
+.content {
+    position: absolute;
+    width: 59%;
+    height: 90%;
+    padding: 2rem;
+    padding-bottom: 0;
+    top: 0;
+    left: 30%;
+    overflow-y: scroll;
+}
+
+.contenido {
+    display: flex;
+}
+
+.cont {
+    width: 50%;
+}
+
+.gallery {
+    margin-left: 5%;
+    width: 40%;
+}
+
+
+.img img {
+    width: 100%;
+}
+
+.cont h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+@media (min-width: 480px){
+    
+}
+
+
+@media (min-width: 768px){
+   
+}
+
+
+
+
+.ocultar {
+    transform: translateX(-100%);
+    transition: all 0.3s;
+}
+
+.mostrar {
+    transform: translateX(-10%);
+    transition: all 0.3s;
+}
+
+.showsub {
+    display: initial;
+    transition: all 3s;
+}
